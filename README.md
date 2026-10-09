@@ -37,7 +37,6 @@ La línea base cierra D40. Sin recuperación, y manteniendo las duraciones propu
 
 **Nota:** la simulación interna adelanta verificaciones; no sustituye sandbox, E2E ni certificación del aliado. Las duraciones son estimaciones propuestas, no datos de Tpaga.
 
-**Nota:** este paquete actualiza únicamente CSV e instrucciones. Los documentos completos deben corresponder a la versión final revisada por la candidata.
 
 ## Planificación para Jira
 
@@ -46,8 +45,6 @@ La línea base cierra D40. Sin recuperación, y manteniendo las duraciones propu
 - [CSV jerárquico](01_Jira_Jerarquia.csv)
 - [CSV simple alternativo](02_Jira_Tareas_Simple.csv)
 - [Guía de importación](LEEME_Importacion_Jira.md)
-
-**Nota:** importar una alternativa, no ambas. No se ha importado en una instancia real. Los identificadores de cronograma no son claves Jira.
 
 ## Archivos de control
 
