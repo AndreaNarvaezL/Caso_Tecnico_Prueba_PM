@@ -56,6 +56,6 @@ La línea base cierra D40. Sin recuperación, y manteniendo las duraciones propu
 
 ## Enfoque jurídico
 
-Las fuentes oficiales y sus condiciones de aplicabilidad se incluyen en el PDF y el texto editable. DSP-465 solo se aplica si infraestructura y roles lo justifican; ISO 20022 es un estándar de mensajería financiera.
+Las fuentes oficiales y sus condiciones de aplicabilidad se incluyen en el PDF. DSP-465 solo se aplica si infraestructura y roles lo justifican; ISO 20022 es un estándar de mensajería financiera.
 
 **Nota:** las condiciones obligatorias de seguridad, cumplimiento y aprobación externa deben completarse antes de habilitar producción, aunque exista presión por el plazo.
