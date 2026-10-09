@@ -1,0 +1,32 @@
+﻿Escenario,ID,Actividad,Inicio_D,Fin_D,Duracion_dias,Predecesoras,Responsable,Condicion
+Base,01,"Alcance, arquitectura y roles",0,5,5,,PO y Arquitecto,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Base,02,MVP y pruebas internas,5,15,10,01,Backend Frontend QA,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Base,03,Sandbox previsto disponible,15,15,0,,Proveedor,"Supuesto: compromiso original D15, retraso de 15 días hábiles hasta D30; confirmar referencia con aliado."
+Base,04,E2E con el aliado,15,20,5,02;03,QA y aliados,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Base,05,Certificación y aprobación externa,20,25,5,04,Aliados y Arquitecto,Certificación según procedimiento confirmado del aliado; duración propuesta por validar.
+Base,06,Preparación y validación operativa,25,35,10,05,Operaciones,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Base,07,Decisión Go/No-Go,35,35,0,05;06,Autoridad interna competente; PM consolida,"Go solo con pruebas, cumplimiento, preparación operativa y aprobaciones externas exigibles completos."
+Base,08,Despliegue y estabilización,35,40,5,07,Arquitecto Backend Operaciones,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Impacto,01,"Alcance, arquitectura y roles",0,5,5,,PO y Arquitecto,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Impacto,02,MVP ajustado y pruebas internas,5,25,20,01,Backend Frontend QA,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Impacto,09,Corrección 80 h backend,15,25,10,01,Backend,80 horas acumuladas del caso; ventana D15-D25 condicionada a distribución y disponibilidad aprobadas en D15.
+Impacto,10,Revisión retest y regresión,25,30,5,09,Ciberseguridad y QA,Ciberseguridad aprueba retest; QA aprueba regresión funcional. Disponibilidad y esfuerzo por validar.
+Impacto,03,Sandbox retrasado disponible,30,30,0,,Proveedor,"Supuesto: compromiso original D15, retraso de 15 días hábiles hasta D30; confirmar referencia con aliado."
+Impacto,04,E2E con el aliado,30,35,5,02;03;10,QA y aliados,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Impacto,05,Certificación y aprobación externa,35,40,5,04,Aliados y Arquitecto,Certificación según procedimiento confirmado del aliado; duración propuesta por validar.
+Impacto,06,Preparación y validación operativa,40,50,10,05,Operaciones,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Impacto,07,Decisión Go/No-Go,50,50,0,05;06,Autoridad interna competente; PM consolida,"Go solo con pruebas, cumplimiento, preparación operativa y aprobaciones externas exigibles completos."
+Impacto,08,Despliegue y estabilización,50,55,5,07,Arquitecto Backend Operaciones,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Recuperacion,01,"Alcance, arquitectura y roles",0,5,5,,PO y Arquitecto,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Recuperacion,02,MVP ajustado y pruebas internas,5,25,20,01,Backend Frontend QA,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Recuperacion,09,Corrección 80 h backend,15,25,10,01,Backend,80 horas acumuladas del caso; ventana D15-D25 condicionada a distribución y disponibilidad aprobadas en D15.
+Recuperacion,11,Mocks mínimos y contrato de integración,17,20,3,01,Backend y Arquitecto,"Opcional: especificaciones confirmadas D17, esfuerzo y beneficio validados. Si compite con corrección, priorizar corrección."
+Recuperacion,12,Casos E2E datos y pruebas simuladas,20,25,5,01,QA,Casos y datos no dependen de construir mocks. Pruebas simuladas solo si se autoriza simulación.
+Recuperacion,06,SOP conciliación soporte y ensayo despliegue,20,30,10,01,Operaciones y Arquitecto,Duración propuesta sujeta a validación; no equivale a horas de esfuerzo.
+Recuperacion,10,Revisión retest y regresión,25,30,5,09,Ciberseguridad y QA,Ciberseguridad aprueba retest; QA aprueba regresión funcional. Disponibilidad y esfuerzo por validar.
+Recuperacion,03,Sandbox retrasado disponible,30,30,0,,Proveedor,"Supuesto: compromiso original D15, retraso de 15 días hábiles hasta D30; confirmar referencia con aliado."
+Recuperacion,04,E2E con el aliado,30,33,3,02;03;10;12,QA y aliados,Tres días hábiles D30-D33; ventana acordada a más tardar D20; sandbox y validaciones internas aprobados.
+Recuperacion,05,Certificación externa de la integración,33,35,2,04,Aliados y Operaciones,Dos días hábiles D33-D35 si procedimiento aplicable y aliado lo permiten; sin omitir requisitos.
+Recuperacion,13,Validación operativa final,33,35,2,04;06,Operaciones con QA y áreas competentes,"En paralelo con certificación; incorporar evidencia E2E y completar SOP, soporte y contingencia antes del Go."
+Recuperacion,07,Decisión Go/No-Go,35,35,0,05;13,Autoridad interna competente; PM consolida,"Go solo con pruebas, cumplimiento, preparación operativa y aprobaciones externas exigibles completos."
+Recuperacion,08,Despliegue y estabilización,35,40,5,07,Arquitecto Backend Operaciones,Go-live D36 propuesto; seguimiento 72 horas transcurridas con calendario real y cobertura aprobada.

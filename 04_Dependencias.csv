@@ -1,0 +1,48 @@
+﻿Predecesora_local,Sucesora_local,Relacion_propuesta,Condicion,Nota
+T101,T102,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T102,T103,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T101,T104,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T104,T105,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T104,T106,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T201,T107,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T203,T107,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T101,T201,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T202,T203,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T201,T204,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T201,T205,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T202,T206,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T205,T207,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T101,T301,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T201,T301,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T107,T302,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T103,T303,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T104,T303,relates to,Parcial,Enlace informativo; Jira no impone fechas. Entrega parcial permite inicio paralelo.
+T106,T304,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T106,T305,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T106,T306,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T204,T307,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T103,T308,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T104,T308,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T105,T308,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T301,T308,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T303,T308,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T304,T308,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T305,T308,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T306,T308,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T307,T308,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T308,T309,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T101,T401,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T205,T401,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T101,T402,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T401,T403,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T402,T403,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T308,T403,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T309,T403,relates to,Cierre,Condiciona cierre cuando corresponda; no impide preparación paralela.
+T207,T404,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T304,T404,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T306,T404,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T309,T404,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T403,T404,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T404,T405,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T405,T406,blocks,Fin-inicio,Configurar con claves reales tras importación.
+T203,T106,relates to,Aprobación inicial D15,Distribución y autorización inicial antes de corregir; confirmación del balance global a más tardar D20.

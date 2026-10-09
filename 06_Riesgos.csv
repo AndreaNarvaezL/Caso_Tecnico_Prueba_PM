@@ -1,0 +1,10 @@
+﻿ID,Tipo,Descripcion,P_I_nivel,Responsable,Respuesta,Fecha_decision
+I01,Materializado,Sandbox retrasado,N/A impacto alto,PM y proveedor,Mitigar preparar simulación y acuerdo,D20 D30
+I02,Materializado,Vulnerabilidad alta 80 h,N/A impacto alto,Arquitecto y CIB,Evitar exposición corregir y retestear,D25 D30
+R01,Riesgo futuro,Nueva demora o ambiente incompleto,3/3/9,PM y proveedor,"Mitigar: prueba de disponibilidad, compromiso y escalación",D20 acuerdo; D30 verificación
+R02,Riesgo futuro,Mocks incompatibles con nueva versión,2/3/6,Arquitecto,Mitigar: confirmar especificaciones vigentes antes de mocks. E2E solo con sandbox disponible; escalar faltas de información o ambiente.,D17 especificaciones; D30-D33 E2E
+R03,Riesgo futuro,Corrección no elimina hallazgo o introduce regresión,2/3/6,Ciberseguridad,"Mitigar con revisión, retest independiente aprobado por Ciberseguridad y regresión aprobada por QA. Evitar lanzamiento afectado con bloqueantes.",D25 código; D30 validaciones
+R04,Riesgo futuro,Capacidad backend o QA insuficiente,3/3/9,PM y Arquitecto,Mitigar: estimar carga por rol y esfuerzo backend liberable; aprobar diferimientos y apoyo si necesario. No presumir 92 horas disponibles.,D15 decisión inicial; D20 confirmación
+R05,Riesgo futuro,E2E y certificación superan ventana de 5 días,2/3/6,PM y aliados,"Mitigar: acordar suite, evidencias, agenda y aprobadores. Certificación según requisitos aplicables; escalar si la ventana no es viable.",D20 agenda; D30-D33 E2E; D33-D35 certificación
+R06,Riesgo futuro,Duplicados o pendientes mal gestionados,2/3/6,Arquitecto y Operaciones,"Mitigar: impedir reenvíos ciegos; verificar duplicados, estados y conciliación. Procedimientos y resultados externos incorporados antes de lanzamiento.",D20-D30 preparación; D33 E2E; D35 cierre
+R07,Riesgo futuro,Requisito legal o contractual sin atender,2/3/6,Cumplimiento y apoyo jurídico,"Mitigar: roles, requisitos, responsables y evidencia; bloquear salida si obligatorio",D20 mapa; D35 cierre

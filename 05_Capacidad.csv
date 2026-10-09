@@ -1,0 +1,11 @@
+﻿Rol,Ventana,Trabajo,Esfuerzo_confirmado_caso_h,Esfuerzo_adicional_h,Disponibilidad_h,Horas_backend_liberables,Validacion,Estado,Nota
+Backend,D15-D25,Corrección de autorización,80,,,,Arquitectura distribuye 80 horas acumuladas; confirmar disponibilidad en D15.,Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
+Backend,Ventana afectada por confirmar,Diferimientos opcionales,,,,,PO aprueba; Desarrollo estima horas efectivamente liberables.,Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
+Backend y Arquitectura,D17-D20,Mocks mínimos condicionados,,,,,Estimar esfuerzo y utilidad; no desplazar corrección.,Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
+QA,D15-D25,Preparación y pruebas internas,,,,,Estimar carga; casos y datos detallados D20-D25.,Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
+Ciberseguridad,D25-D30,Revisión y retest independiente,,,,,"Confirmar esfuerzo, disponibilidad y aprobación de seguridad.",Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
+QA,D25-D30,Regresión funcional y evidencias,,,,,Confirmar esfuerzo y capacidad; contemplar atención de defectos.,Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
+QA y aliados,D30-D35,E2E y certificación,,,,,Confirmar agenda: E2E D30-D33; certificación D33-D35.,Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
+Arquitectura Frontend y Operaciones,Según actividad,Revisiones y preparación,,,,,Estimar carga por persona evitando sobreasignación.,Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
+Operaciones,D20-D30 y D33-D35,SOP y cierre operativo,,,,,Validar preparación y cierre con resultados E2E.,Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
+Equipo técnico y Operaciones,D35-D40,Despliegue y estabilización,,,,,Confirmar cobertura y 72 horas transcurridas de seguimiento.,Por validar,"Celdas vacías significan por estimar, no cero. Duraciones no prueban capacidad."
