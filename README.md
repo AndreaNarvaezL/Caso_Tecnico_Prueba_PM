@@ -7,7 +7,6 @@ Propuesta de planificación y recuperación de Transferencias Interoperables Inm
 ## Documentos y entregables
 
 - [Documento ejecutivo completo](Tpaga_Entregables_Finales.pdf)
-- [Documento editable](./Tpaga_Entregables_Finales.docx)
 
 | Entregable                | Contenido                                                                          |
 | ------------------------- | ---------------------------------------------------------------------------------- |
