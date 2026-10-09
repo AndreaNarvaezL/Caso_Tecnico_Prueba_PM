@@ -14,7 +14,7 @@ Propuesta de planificación y recuperación de Transferencias Interoperables Inm
 | 1. Plan y reestimación    | Flujo y controles, EDT con paralelismo, tres cronogramas, ruta crítica y capacidad |
 | 2. Riesgos y comunicación | Incidentes, matriz de riesgos, informe de una página, RACI y comunicación          |
 | 3. Priorización MVP       | MoSCoW y diferimientos para absorber esfuerzo sin retirar controles esenciales     |
-| Plus jurídico             | Normas nacionales, aplicabilidad por actor, contratos y evidencias de salida       |
+| 4. Anexo jurídico         | Normas nacionales, aplicabilidad por actor, contratos y evidencias de salida       |
 
 ## Lectura del cronograma actualizado
 
